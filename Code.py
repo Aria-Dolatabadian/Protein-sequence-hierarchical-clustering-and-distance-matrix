@@ -2,6 +2,7 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 from scipy.cluster.hierarchy import linkage, dendrogram
+
 # Load protein sequences from a CSV file with two columns: Name and Sequence
 csv_file = "Protein sequences.csv"
 # Read the CSV file into a pandas DataFrame
